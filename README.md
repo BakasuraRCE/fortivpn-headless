@@ -21,7 +21,7 @@ docker run -d -it \
   --name forti-vpn \
   --restart always \
   --dns 1.1.1.1 \
-  -p 41080:41080 \
+  -p 1080:1080 \
   -v /myvolume/fortivpn:/etc/openfortivpn \
   bakasura/fortivpn-headless
 ```
