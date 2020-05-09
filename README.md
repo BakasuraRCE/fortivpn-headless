@@ -22,7 +22,7 @@ docker run -d -it \
   --restart always \
   --dns 1.1.1.1 \
   -p 41080:41080 \
-  -v /mnt/datos_4tb_1/DATA/Docker_Volumes/fortivpn:/etc/openfortivpn \
+  -v /myvolume/fortivpn:/etc/openfortivpn \
   bakasura/fortivpn-headless
 ```
 
