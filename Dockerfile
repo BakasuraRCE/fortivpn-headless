@@ -1,5 +1,5 @@
 FROM archlinux:latest
-RUN pacman -Sy
+RUN pacman -Syu
 RUN pacman -S --noconfirm openssl ppp wget
 RUN pacman -Scc --noconfirm
 COPY entrypoint.sh /usr/bin
