@@ -17,7 +17,7 @@ Start a new VPN service
 docker run -d -it \
   --cap-add=NET_ADMIN \
   --device /dev/ppp \
-  --network "nono-default-network" \
+  --network "non-default-network" \
   --name forti-vpn \
   --restart always \
   --dns 1.1.1.1 \
